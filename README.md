@@ -7,11 +7,11 @@ The course is structured to allow you to select the content you wish to learn.
 
 # Contents
 
-- [ ] Dart Essentials
-- [ ] Flutter Essentials
-- [ ] Flutter Mobile Apps
-- [ ] Flutter and Firebase
-- [ ] Flutter and Google Cloud
+- [ ] [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main/dart)
+- [ ] [Flutter Essentials](https://github.com/rosera/flutter_workshop/tree/main/flutter)
+- [ ] [Flutter Mobile Apps](https://github.com/rosera/flutter_workshop/tree/main/mobile)
+- [ ] [Flutter and Firebase](https://github.com/rosera/flutter_workshop/tree/main/firebase)
+- [ ] [Flutter and Google Cloud](https://github.com/rosera/flutter_workshop/tree/main/gcp)
 
 # Getting Started
 
