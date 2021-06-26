@@ -17,7 +17,7 @@ The course is structured to allow you to select the content you wish to learn.
 
 #### Prerequisites
 
-The labs in this repository are designed to be compatible with a Flutter web environment. Hands-On Lab elements are being piloted, so please the repository will be updated in line with this feedback.
+The labs in this repository are designed to be compatible with a Flutter web environment. Hands-On Lab elements are being piloted, so the repository will be updated in line with this feedback.
 
 To start developing Flutter:
 
