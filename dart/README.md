@@ -3,11 +3,11 @@
 Welcome to Dart Essentials.
 Learn the fundamentals of Dart and get started building applications.
 
-- [ ] Lab 01 - Variables
-- [ ] Lab 02 - Flow Statements
-- [ ] Lab 03 - Functions
-- [ ] Lab 04 - Import statements
-- [ ] Lab 05 - Classes
-- [ ] Lab 06 - Asynchronous
+- [ ] [Lab 01 - Variables](https://github.com/rosera/flutter_workshop/tree/main/dart/lab01)
+- [ ] [Lab 02 - Flow Statements](https://github.com/rosera/flutter_workshop/tree/main/dart/lab02)
+- [ ] [Lab 03 - Functions](https://github.com/rosera/flutter_workshop/tree/main/dart/lab03)
+- [ ] [Lab 04 - Import statements](https://github.com/rosera/flutter_workshop/tree/main/dart/lab04)
+- [ ] [Lab 05 - Classes](https://github.com/rosera/flutter_workshop/tree/main/dart/lab05)
+- [ ] [Lab 06 - Asynchronous](https://github.com/rosera/flutter_workshop/tree/main/dart/lab06)
 
 Return to [home](https://github.com/rosera/flutter_workshop)

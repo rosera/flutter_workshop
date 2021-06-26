@@ -3,6 +3,8 @@
 Dart has a number of variable types available to the developer.
 Variables are used to store a reference to a value.
 
+Return to [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main/dart)
+
 # Numbers
 
 Dart uses integers and floats to represent numbers.
@@ -13,9 +15,10 @@ Dart uses integers and floats to represent numbers.
 * If you need to store a decimal number i.e. double = 1.5 
 
 #### Example: 
-
+```dart
 int priceOfCakes = 2.99;
 int maxNumberOfPeople = 35;
+```
 
 # Booleans 
 
@@ -28,8 +31,10 @@ Dart uses bool to represent a true/false scenario
 
 #### Example: 
 
+```dart
 bool isDartCool = true;
 bool isShopOpen = false;
+```
 
 # Strings
 
@@ -42,8 +47,10 @@ Dart uses strings to represent multiple characters
 
 #### Example: 
 
+```dart
 String myFirstName = 'Seth;
 String myFavouritePhrase = 'This elixir mister got a maze in vista';
+```
 
 
-
+Return to [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main/dart)
