@@ -16,8 +16,8 @@ Dart uses integers and floats to represent numbers.
 
 #### Example: 
 ```dart
-int priceOfCakes = 2.99;
 int maxNumberOfPeople = 35;
+double priceOfCakes = 2.99;
 ```
 
 # Booleans 
