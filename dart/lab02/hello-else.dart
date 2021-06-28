@@ -1,4 +1,4 @@
-main() {
+void main() {
     bool isDartCool = false;
 
     if (isDartCool) {
