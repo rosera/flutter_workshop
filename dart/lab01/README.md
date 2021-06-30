@@ -5,22 +5,33 @@ Variables are used to store a reference to a value.
 
 Return to [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main/dart)
 
-# Numbers
+# Integer 
 
-Dart uses integers and floats to represent numbers.
+Dart uses integers to represent whole numbers.
 
 #### Use Case:
 
 * If you need to store a whole number i.e. int myNumber = 1
-* If you need to store a decimal number i.e. double = 1.5 
 
-#### Example: 
+#### [Example](https://github.com/rosera/flutter_workshop/blob/main/dart/lab01/solutions/hello-integer.dart): 
 ```dart
-int priceOfCakes = 2.99;
 int maxNumberOfPeople = 35;
 ```
 
-# Booleans 
+# Double 
+
+Dart uses floats to represent number precision.
+
+#### Use Case:
+
+* If you need to store a decimal number i.e. double = 1.5 
+
+#### [Example](https://github.com/rosera/flutter_workshop/blob/main/dart/lab01/solutions/hello-double.dart): 
+```dart
+double priceOfCakes = 2.99;
+```
+
+# Boolean 
 
 Dart uses bool to represent a true/false scenario
 
@@ -29,14 +40,14 @@ Dart uses bool to represent a true/false scenario
 * If you need to indicate something is true 
 * If you need to indicate something is false 
 
-#### Example: 
+#### [Example](https://github.com/rosera/flutter_workshop/blob/main/dart/lab01/solutions/hello-bool.dart): 
 
 ```dart
 bool isDartCool = true;
 bool isShopOpen = false;
 ```
 
-# Strings
+# String
 
 Dart uses strings to represent multiple characters
 
@@ -45,7 +56,7 @@ Dart uses strings to represent multiple characters
 * If you need to store a name i.e 'Seth Ladd'
 * If you need to store an address i.e. '1600 Amphitheatre Parkway, Mountain View, CA 94043, USA'
 
-#### Example: 
+#### [Example](https://github.com/rosera/flutter_workshop/blob/main/dart/lab01/solutions/hello-string.dart): 
 
 ```dart
 String myFirstName = 'Seth;
