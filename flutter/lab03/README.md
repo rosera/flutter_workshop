@@ -83,6 +83,13 @@ class MyApp extends StatelessWidget {
 Example:
 
 ```
+import 'package:flutter/material.dart';
+
+void main() {
+    runApp(MyApp());
+}
+
+
 class MyApp extends StatelessWidget {
   List<String> items = ['January', 'February', 'March', 'April'];
 
