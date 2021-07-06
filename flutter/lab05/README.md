@@ -1,5 +1,12 @@
 # Lab05 - Multiple Pages
 
+When creating a new page for the application, use a new dart file.
+Keeping related code together is useful and makes it easier to understand how the code is structured.
+
+
+- [x] main.dart
+- [x] details.dart
+
 ## main.dart
 ```
 import 'package:first_app/details.dart';
@@ -57,25 +64,29 @@ class MyApp extends StatelessWidget {
 
 ## details.dart
 
+This module is new and represents the new page being added to our application.
+__Note:__
+
+*  How similar `details.dart` is to the original `main.dart` code.
+* The return widet is a `Scaffold` widget rather than `MaterialApp`.
+
 ```
 import 'package:flutter/material.dart';
 
 class MyDetails extends StatelessWidget {
+
   final String item;
   MyDetails(this.item);
 
   @override
   Widget build(BuildContext context) {
-    final title = 'Details Page';
+    final title = 'MyAwesome App';
 
-    return MaterialApp(
-      title: title,
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           title: Text(title),
         ),
         body: Text('You selected $item'),
-      ),
     );
   }
 }

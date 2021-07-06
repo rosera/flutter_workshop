@@ -10,7 +10,20 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  List<String> items = ['January', 'February', 'March', 'April'];
+  List<String> items = [
+    'January', 
+    'February', 
+    'March', 
+    'April',
+    'May', 
+    'June', 
+    'July', 
+    'August',
+    'September', 
+    'October', 
+    'November', 
+    'December'
+  ];
 
   @override
   Widget build(BuildContext context) {

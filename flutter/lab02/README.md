@@ -8,13 +8,26 @@ Below are some example Widgets that can be helpful when building an application.
 
 | Widget   | Description |
 |----------|--------|
-| Column   | Vertical layout |
-| Row      | Horizontal layout |
+| Scaffold | General layout | 
+| AppBar   | Application Header |
+| Text     | Text Entry |
 | ListView | Scrolling list | 
-| GridView | Vertical/Horizontal grid |
  
 
-## Column 
+## Scaffold 
+
+TBC
+
+Use Case:
+* TBC
+
+[Example](TBC)
+
+```
+Code
+```
+
+## AppBar 
 
 TBC
 
@@ -28,7 +41,7 @@ Code
 ```
 
 
-## Row 
+## Text 
 
 TBC
 
@@ -49,10 +62,46 @@ A ListView groups user data together.
 Use Case:
 * If you need to present an onscreen list of items.
 
--- Insert Image --
-
 [Example](TBC):
 
+#### Basic List 
+
+```
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final title = 'Basic List';
+
+    return MaterialApp(
+      title: title,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: ListView(
+          children: <Widget>[
+            ListTile(
+              title: Text('January'),
+            ),
+            ListTile(
+              title: Text('February'),
+            ),
+            ListTile(
+              title: Text('March'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
+
+#### Long List 
 The example creates a basic list containing three items.
 
 ```
@@ -63,52 +112,29 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final List<String> items =
-      List<String>.generate(10, (i) => 'Harry Potter $i');
+  final List<String> items  = ['January', 'February', 'March'];
 
   @override
   Widget build(BuildContext context) {
-    final title = 'Basic List';
+    final title = 'MyAwesome App';
 
     return MaterialApp(
       title: title,
       home: Scaffold(
-          appBar: AppBar(
-            title: Text(title),
-          ),
-          body: Container(
-              margin: EdgeInsets.symmetric(vertical: 20.0),
-              height: 200.0,
-              child: ListView(
-                scrollDirection: Axis.vertical,
-                children: <Widget>[
-                  ListTile(
-                    title: Text('July 1'),
-                  ),
-                  ListTile(
-                    title: Text('July 2'),
-                  ),
-                  ListTile(
-                    title: Text('July 3'),
-                  ),
-                ],
-              ))),
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            return ListTile(
+              title: Text('${items[index]}'),
+            );
+          },
+        ),
+      ),
     );
   }
 }
-```
-
-
-## GridView
-
-TBC
-
-Use Case:
-* TBC
-
-[Example](TBC)
-
-```
-Code
 ```
 
