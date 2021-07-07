@@ -2,7 +2,7 @@
 
 Add a SnackBar to illustrate user interaction
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {

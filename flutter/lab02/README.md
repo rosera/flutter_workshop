@@ -66,7 +66,7 @@ Use Case:
 
 #### Basic List 
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -102,9 +102,10 @@ class MyApp extends StatelessWidget {
 ```
 
 #### Long List 
-The example creates a basic list containing three items.
+The example creates a long list containing three items.
+__Note:__ In this example the data source is maintained separately from the code.
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {

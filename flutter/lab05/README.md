@@ -8,7 +8,7 @@ Keeping related code together is useful and makes it easier to understand how th
 - [x] details.dart
 
 ## main.dart
-```
+```dart
 import 'package:first_app/details.dart';
 import 'package:flutter/material.dart';
 
@@ -70,7 +70,7 @@ __Note:__
 *  How similar `details.dart` is to the original `main.dart` code.
 * The return widet is a `Scaffold` widget rather than `MaterialApp`.
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class MyDetails extends StatelessWidget {

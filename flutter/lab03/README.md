@@ -13,7 +13,7 @@ Use a ListView for data list.
 If your data source becomes quite long, then consider using a ListView.builder().
 
 Example: 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -89,7 +89,7 @@ Using one requires a couple of changes to the application.
 
 Example:
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -146,7 +146,7 @@ class MyApp extends StatelessWidget {
 
 #### JSON Example:
 
-```
+```json
 {
     "data": [
         {
@@ -164,7 +164,7 @@ class MyApp extends StatelessWidget {
 
 #### Pubspec.yaml
 
-```
+```yaml
 # The following section is specific to Flutter.
 flutter:
 
@@ -184,7 +184,7 @@ flutter:
 
 #### Model 
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class DataSeries {
@@ -215,7 +215,7 @@ class DataItem {
 
 #### main.dart
 
-```
+```dart
 import 'package:first_app/details.dart';
 import 'package:first_app/model.dart';
 import 'package:flutter/material.dart';
@@ -315,7 +315,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 #### details.dart
-```
+```dart
 import 'package:flutter/material.dart';
 
 class MyDetails extends StatelessWidget {
