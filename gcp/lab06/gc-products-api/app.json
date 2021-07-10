@@ -1,0 +1,22 @@
+{
+    "name": "rest-api",
+    "dir=": "flutter_workshop/gcp/lab06/gc-products-api",
+    "env": {
+        "BACKGROUND_COLOR": {
+            "description": "specify a css color",
+            "value": "#fefefe",
+            "required": false
+        },
+        "TITLE": {
+            "description": "Flutter Workshop example REST API"
+        }
+    },
+    "options": {
+        "allow-unauthenticated": true,
+        "memory": "256Mi",
+        "cpu": "1",
+        "port": 8080,
+        "http2": false
+    }
+}
+
