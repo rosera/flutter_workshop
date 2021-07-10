@@ -29,15 +29,63 @@ Code
 
 ## AppBar 
 
-TBC
+An AppBar is used as a Header in Flutter apps.
 
 Use Case:
-* TBC
+* If you need additional controls e.g. search, popup-menu in addition to a title.
 
-[Example](TBC)
+[Gallery AppBar](https://gallery.flutter.dev/#/demo/app-bar)
 
-```
-Code
+#### AppBar
+
+```dart
+      appBar: AppBar(
+        // Here we take the value from the MyHomePage object that was created by
+        // the App.build method, and use it to set our appbar title.
+        title: Text(widget.title),
+        leading: IconButton(
+          tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+          icon: const Icon(Icons.menu),
+          onPressed: () {},
+        ),
+        actions: [
+          IconButton(
+            tooltip: 'Favourite',
+            icon: const Icon(
+              Icons.favorite,
+            ),
+            onPressed: () {},
+          ),
+          IconButton(
+            tooltip: 'Search',
+            icon: const Icon(
+              Icons.search,
+            ),
+            onPressed: () {},
+          ),
+          PopupMenuButton<Text>(
+            itemBuilder: (context) {
+              return [
+                PopupMenuItem(
+                  child: Text(
+                    'First',
+                  ),
+                ),
+                PopupMenuItem(
+                  child: Text(
+                    'Second',
+                  ),
+                ),
+                PopupMenuItem(
+                  child: Text(
+                    'Third',
+                  ),
+                ),
+              ];
+            },
+          )
+        ],
+      ),
 ```
 
 
