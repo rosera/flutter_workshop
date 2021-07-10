@@ -1,0 +1,14 @@
+{
+  "products": [
+    {"title": "Compute"},
+    {"title": "Storage"},
+    {"title": "Databases"},
+    {"title": "Networking"},
+    {"title": "Operations"},
+    {"title": "Tools"},
+    {"title": "Big Data"},
+    {"title": "Artifical Intelligence"},
+    {"title": "Google Solutions"},
+    {"title": "Partner Solutions"}
+  ]
+} 
