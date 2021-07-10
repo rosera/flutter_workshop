@@ -7,5 +7,5 @@
 
 
 ## Deploy Example REST API
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?dir=flutter_workshop/gcp/lab06/gc-products-api)
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?dir=gcp/lab06/gc-products-api)
 
