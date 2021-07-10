@@ -1,0 +1,15 @@
+{
+  "name": "template-api",
+  "version": "1.0.0",
+  "description": "My Awesome REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
