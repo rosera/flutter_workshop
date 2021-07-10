@@ -187,3 +187,72 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+#### Navigation Drawer
+
+The example creates a navigation bar with a couple of items
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  final List<String> items = [
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    final title = 'Navigation Bar';
+
+    return MaterialApp(
+      title: title,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            return ListTile(
+              title: Text('${items[index]}'),
+              onTap: () {
+              },
+            );
+          },
+        ),
+        drawer: Drawer(
+            child: ListView(
+          children: <Widget>[
+            UserAccountsDrawerHeader(
+              accountName: Text('Rich Rose'),
+              accountEmail: Text('rich.rose@flutter.dev'),
+              currentAccountPicture: const CircleAvatar(
+                child: FlutterLogo(size: 42.0),
+              ),
+            ),
+            ListTile(
+              title: Text('Home'),
+              onTap: () {},
+            ),
+            ListTile(
+              title: Text('Page One'),
+              onTap: () {},
+            ),
+            ListTile(
+              title: Text('Page Two'),
+              onTap: () {},
+            )
+          ],
+        )),
+      ),
+    );
+  }
+}
+``` 
