@@ -1,10 +1,16 @@
 # bourne_json
 
-A new Flutter project.
+An example application to help learn Flutter development.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The application includes:
+
+- [x] Networking
+- [x] Navigation
+- [x] onTap functionality
+- [x] Widgets e.g. ListView, Card, Stack
+
 
 A few resources to get you started if this is your first Flutter project:
 
