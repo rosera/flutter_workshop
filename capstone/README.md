@@ -81,6 +81,16 @@ The file `main.dart` includes the following structure
 
 The main class displays information about the downloaded data.
 
+__NOTE:__
+
+The application supports both local and remote hosted JSON.
+
+| Access   | File | Method | Data Source |
+|----------|------|--------|-------------|
+| Local    | main.dart | loadLocalData | assets/marvel.json | 
+| Remote   | main.dart | loadRemoteData | https://storage.googleapis.com/spl-api/marvel.json |
+
+
 
 ## Details
 
