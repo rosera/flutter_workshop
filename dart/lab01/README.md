@@ -59,7 +59,7 @@ Dart uses strings to represent multiple characters
 #### [Example](https://github.com/rosera/flutter_workshop/blob/main/dart/lab01/solutions/hello-string.dart): 
 
 ```dart
-String myFirstName = 'Seth;
+String myFirstName = 'Seth';
 String myFavouritePhrase = 'This elixir mister got a maze in vista';
 ```
 
