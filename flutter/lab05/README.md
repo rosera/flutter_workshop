@@ -68,7 +68,7 @@ This module is new and represents the new page being added to our application.
 __Note:__
 
 *  How similar `details.dart` is to the original `main.dart` code.
-* The return widet is a `Scaffold` widget rather than `MaterialApp`.
+* The return widget is a `Scaffold` widget rather than `MaterialApp`.
 
 ```dart
 import 'package:flutter/material.dart';
