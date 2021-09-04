@@ -7,43 +7,58 @@ Return to [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main
 
 # Functions
 
- TBC - No parameters
+Using a function without parameters means no information is being passed.
 
 #### Use Case:
 
-* TBC 
+* Use a function without parameters where no data is to be passed. 
 
 #### Example: 
 ```dart
-TBC 
+printHello(){
+  print('Hello!');
+}
 ```
+
+Note: In the above function it just has one expression, so this can be shorten e.g.
+```
+printHello() => print('Hello');
+```
+
 
 # Functions
 
-TBC - with parameters
+If data is to be passed to a function then ensure it is enclosed within the brackets.
 
 #### Use Case:
 
-* TBC
+* Use function with parameters where data is required by the function to be called.
 
 #### Example: 
 
 ```dart
-TBC
+printHello(name){
+  print('Hello $name!');
+}
 ```
 
 # Functions 
 
-TBC - with a return value 
+To return a value from function, use the `return` statement. 
 
 #### Use Case:
 
-* TBC
+Return statement can be used to indicate:
+*  state of the function on completion e.g. OK/NOT
+*  value to be returned e.g. read data and return it  
 
 #### Example: 
 
 ```dart
-TBC 
+printHello(name){
+  print('Hello $name!');
+  return true;
+}
 ```
 
 
