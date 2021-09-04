@@ -7,43 +7,55 @@ Return to [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main
 
 # If/Else 
 
- TBC
+If/Else are used to control logical flow within an application.
 
 #### Use Case:
 
-* TBC 
+* If you need to make a choice within an application
 
 #### Example: 
 ```dart
-TBC 
+var isFootball = true;
+
+if (isFootball) {
+  print('Go Football!');
+} else {
+  print('Go Sports!);
+}
 ```
 
 # For
 
-TBC
+A For statement provides a loop where the condition is checked on entry.
 
 #### Use Case:
 
-* TBC
+* If you need to perform a task a certain amount of times.
 
 #### Example: 
 
 ```dart
-TBC
+var maxIterations = 10;
+for (var i = 0; i < maxIterations; i++) {
+  print ('Iteration: $maxIterations')
+}
 ```
 
 # While
 
-TBC 
+A While statement provides a loop where the condition is checked on entry. 
 
 #### Use Case:
 
-* TBC
+* If you need to perform a task and perform the loop only while the condition is valid 
 
 #### Example: 
 
 ```dart
-TBC 
+var isTrue = true;
+while (isTrue) {
+  isTrue = false;
+}
 ```
 
 
