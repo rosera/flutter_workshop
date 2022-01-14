@@ -55,12 +55,25 @@ Dart uses strings to represent multiple characters
 
 * If you need to store a name i.e 'Seth Ladd'
 * If you need to store an address i.e. '1600 Amphitheatre Parkway, Mountain View, CA 94043, USA'
+* If you need to store a multiline i.e. 'Super long text ... still super long text ... still going' 
 
 #### [Example](https://github.com/rosera/flutter_workshop/blob/main/dart/lab01/solutions/hello-string.dart): 
 
 ```dart
-String myFirstName = 'Seth';
-String myFavouritePhrase = 'This elixir mister got a maze in vista';
+  String myFirstName = 'Seth';
+  String myFavouritePhrase = 'This elixir mister got a maze in vista';
+  String myOtherName = "Doug";
+
+  String multiLine = '''
+  Hello
+  This is a multi-line
+  Text which is over multiple line
+  ''';
+
+  print(myFirstName);
+  print(myFavouritePhrase);
+  print(myOtherName);
+  print(multiLine);
 ```
 
 
