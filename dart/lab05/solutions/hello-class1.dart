@@ -6,5 +6,5 @@ class FlutterDev {
 }
 
 void main() {
-  var typeOfDeveloper = new FlutterDev('Jamie');
+  FlutterDev('Jamie');
 }
