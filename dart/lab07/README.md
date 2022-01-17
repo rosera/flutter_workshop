@@ -56,7 +56,7 @@ void main() {
 }
 ```
 
-# Assign a variable from a Map 
+# Validate Key in a Map 
 
 Dart uses Map to represent an object with keys and values.
 
@@ -80,7 +80,7 @@ void main() {
 }
 ```
 
-# Assign a variable from a Map 
+# Dereference variable from a Map 
 
 Dart uses Map to represent an object with keys and values.
 
