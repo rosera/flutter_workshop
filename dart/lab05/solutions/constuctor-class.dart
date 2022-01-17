@@ -1,7 +1,12 @@
+
 const numDays = 7;
 
-class DaysLeftInWeek { 
-  int currentDay = DateTime.now().weekday.toInt();
+class DaysLeftInWeek {
+  int currentDay = 0;
+
+  DaysLeftInWeek(){
+    currentDay = DateTime.now().weekday.toInt();
+  }
 
   int howManyDaysLeft(){
     return numDays - currentDay;
@@ -10,7 +15,7 @@ class DaysLeftInWeek {
 
 void main() {
   var currentDay = DaysLeftInWeek();
-  
+
   print ('Today is day ${currentDay.currentDay}');
   print ('We have ${currentDay.howManyDaysLeft()} day(s) left in the week');
 }
