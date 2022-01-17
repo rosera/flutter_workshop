@@ -20,8 +20,6 @@ const numDays = 7;
 class DaysLeftInWeek { 
   int currentDay = DateTime.now().weekday.toInt();
 
-  DaysLeftInWeek();
-
   int howManyDaysLeft(){
     return numDays - currentDay;
   }
