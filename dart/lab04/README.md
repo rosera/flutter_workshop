@@ -9,7 +9,7 @@ Return to [Dart Essentials](https://github.com/rosera/flutter_workshop/tree/main
 
  Built in Dart library URIs use the dart: scheme to refer to a library. Other libraries can use a file system path or the package: scheme to specify its URI. Libraries provided by a package manager such as the pub tool uses the package: scheme.
  There are many libraries available in dart, some of the commonly used libraries and their description are:
- |Sr No      | Library       | Description                                                                                                                                                       |
+ |Sr No.      | Library       | Description                                                                                                                                                       |
  | :---:     | :---:         | :---                                                                                                                                                              |
  |1          |dart:io        |File, socket, HTTP, and other I/O support for server applications. This library does not work in browser-based applications. This library is imported by default.  |
  |2          |dart:core      |Built-in types, collections, and other core functionality for every Dart program. This library is automatically imported.                                          |
