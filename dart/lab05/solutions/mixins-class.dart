@@ -1,10 +1,10 @@
-abstract class SnickersOriginal {
+mixin SnickersOriginal {
   bool hasHazelnut = true;
   bool hasRice = false;
   bool hasAlmond = false;
 }
 
-abstract class SnickersCrisp {
+mixin SnickersCrisp {
   bool hasHazelnut = true;
   bool hasRice = true;
   bool hasAlmond = false;
